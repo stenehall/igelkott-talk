@@ -1,6 +1,6 @@
 {
   "name": "igelkott-talk",
-  "description": "Simple talk plugin for Igelkott",
+  "description": "A very simple talk plugin for Igelkott",
   "version": "0.1.0",
   "main": "igelkott-talk.js",
   "dependencies": {

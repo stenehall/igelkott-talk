@@ -1,4 +1,4 @@
-igelkott-bitcoin
+igelkott-talk
 --------------
 
-Keep track of the bitcoin exchange rate using mtgoxs api.
+A _very_ simple talk plugin for Igelkott
