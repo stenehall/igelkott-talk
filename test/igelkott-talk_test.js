@@ -20,7 +20,7 @@ describe('Talk', function() {
       "server": {
         "nick": "igelkott",
       },
-      plugins:['privmsg'],
+      core:['privmsg'],
       'adapter': s, 'connect': function() { this.server.emit('connect'); }
     };
 
@@ -29,7 +29,7 @@ describe('Talk', function() {
 
 
   it('Should respond to people saying hello', function(done) {
-    igelkott.plugin.load('talk', Talk);
+    igelkott.plugin.load('talk', {}, Talk);
 
     s.on('data', function(data) {
       if(data == "PRIVMSG ##botbotbot :dsmith: hello\r\n")
